@@ -1,21 +1,26 @@
 # ESERCIZIO API
 
-Creazione di una WebAPI per una applicazione.
+WebAPI Autori 📚
+Descrizione del progetto
+Questo esercizio consiste nella creazione di una WebAPI per la gestione di autori. L'API permette di eseguire operazioni CRUD (Create, Read, Update, Delete) su una raccolta di autori, utilizzando MongoDB come database.
 
-### Struttura Autore
-
-```
-_id // generato da mongo
-nome // stringa
-cognome // stringa
-email // stringa
-data di nascita // stringa
-avatar // stringa
-```
-GET /authors        --> ritorna la lista degli autori
-GET /authors/123    --> ritorna il singolo autore
-POST /authors       --> crea un nuovo autore
-PUT / authors/123   --> modifica l'autore con l'id associato
-DELETE /authors/123 --> cancella l'autore con l'id associato
-
-Database utilizzato MongoDB
+Endpoints disponibili 🚀
+GET /authors: Restituisce la lista completa degli autori 📜.
+GET /authors/
+: Restituisce i dettagli di un singolo autore, identificato dal suo _id 🔍.
+POST /authors: Crea un nuovo autore, con i dettagli forniti nel corpo della richiesta ✏️.
+PUT /authors/
+: Modifica i dati di un autore esistente, identificato dal suo _id 🛠️.
+DELETE /authors/
+: Elimina l'autore specificato dall'ID fornito 🗑️.
+Struttura Autore 🧑‍💻
+_id (generato da MongoDB)
+nome (stringa)
+cognome (stringa)
+email (stringa)
+data di nascita (stringa)
+avatar (stringa)
+Tecnologie utilizzate 🛠️
+Node.js
+Express.js
+MongoDB
